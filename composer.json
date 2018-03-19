@@ -1,0 +1,27 @@
+{
+  "name": "ikimea/ikimea-kong-bundle",
+  "description": "This bundle provides an integration of the Kong-api library",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Ikimea",
+          "homepage": "http://ikimea.com"
+      }
+  ],
+  "require": {
+      "php": "^7",
+      "ikimea/kong-api": "dev-master",
+      "symfony/console": "~3.4 | ^4.0",
+      "symfony/framework-bundle": "~3.0 | ^4.0"
+  },
+  "require-dev":  {
+      "symfony/phpunit-bridge": "^3.4 | ^4.0"
+  },
+  "autoload":     {
+      "psr-4": { "Ikimea\\Bundle\\KongBundle\\": "src" }
+  },
+  "autoload-dev": {
+      "psr-4": { "Ikimea\\Bundle\\KongBundle\\Tests\\": "tests" }
+  }
+}
