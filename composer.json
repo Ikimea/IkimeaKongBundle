@@ -12,11 +12,11 @@
   "require": {
       "php": "^7",
       "ikimea/kong-api": "dev-master",
-      "symfony/console": "~3.4 | ^4.0",
-      "symfony/framework-bundle": "~3.0 | ^4.0"
+      "symfony/console": "~3.3 | ~3.4 | ^4.0",
+      "symfony/framework-bundle": "~3.3 | ~3.4 | ^4.0"
   },
   "require-dev":  {
-      "symfony/phpunit-bridge": "^3.4 | ^4.0"
+      "symfony/phpunit-bridge": "~3.3 | ~3.4 | ^4.0"
   },
   "autoload":     {
       "psr-4": { "Ikimea\\Bundle\\KongBundle\\": "src" }
