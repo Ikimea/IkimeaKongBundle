@@ -1,5 +1,5 @@
 {
-  "name": "ikimea/ikimea-kong-bundle",
+  "name": "ikimea/kong-bundle",
   "description": "This bundle provides an integration of the Kong-api library",
   "type": "symfony-bundle",
   "license": "MIT",
